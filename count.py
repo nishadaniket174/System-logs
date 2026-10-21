@@ -1,6 +1,8 @@
 import sys
 from collections import Counter
 filename = sys.argv[1]
+position = int(sys.argv[2])
+
 with open(filename) as f:
     lines = f.readlines()
 print("Total lines:", len(lines))
